@@ -1,14 +1,19 @@
- h1, p{
+ h1{
       font-family: 'Fredoka One', cursive;
       color: white;
 }
 
+.service-group {
+  padding:50px;
+}
 
-.style16{
+
+
+.style16, .service-group h3{
   font-family: 'Fredoka One', cursive
   
 }
 
 .container-fluid {
- background-color: #356797;
+  background-color: #356797;
 }

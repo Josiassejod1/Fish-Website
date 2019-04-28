@@ -27,16 +27,26 @@
 <link rel="manifest" href="/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+<!--
 <meta name="theme-color" content="#ffffff">
     <title>Welcome To The Spectacular Aquarium</title>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </head>
+  -->
   
   
-  
-  
-  <body>
+ 
+  <body >
+    
+    <style>
+    .container-fluid {
+      background-color: black;
+    }
+      /* ---- reset ---- */ canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position: relative; width: 100%; height: 100%; background-color: black; background-image: url("http://aqdesigns.com/images/spectacularaquarium_logo.jpg"); background-repeat: no-repeat; background-size: 50%; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+    </style>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">AQDesigns 🐠💦</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -57,33 +67,87 @@
     </ul>
   </div>
 </nav>
+
+
+
 <div class="container-fluid">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" date-interval="500">
+  <div class="carousel-inner" style="width:100%">
+    <div class="carousel-item active">
+      <img class="d-block w-100 img-responsive" src="images/hd/hd_fish2.jpeg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Specialized Aquarium Maintence</h1>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img class="d-block w-100 img-responsive" src="images/hd/hd_fish6.jpeg" alt="Second slide">
+       <div class="carousel-caption d-none d-md-block">
+        <h1>Imported Exotic Fish</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-responsive" src="images/hd/hd_fish7.jpg" alt="Third slide">
+       <div class="carousel-caption d-none d-md-block">
+        <h1>Customized Aquarium Design</h1>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
 
-
+<div class="card-deck" style="margin:50px">
+    
+  <div class="card text-center center">
+     <img src="images/services/aquarium.png" style="width:150px; height:150px; margin:0 auto">
+    <div class="card-body">
+      <h5 class="card-title">Aquarium Design & Installation</h5>
+      <p class="card-text">Need a custom feel for your aquarium ? Look no further, we handle
+      all kinds of tanks, from small tanks for the kids to gigantic tanks found at restaraunts</p>
+      <p class="card-text"><small class="text-muted">Learn More</small></p>
+    </div>
+  </div>
+  
+  
+  <div class="card text-center center">
+    <img src="images/services/water.png" style="width:150px; height:150px; margin:0 auto">
+    <div class="card-body">
+      <h5 class="card-title">Aquarium Maintence Services</h5>
+      <p class="card-text"> We can improve the quality of your current acquariums by cleaning the water, maintaining filteration, and many other services </p>
+      <p class="card-text"><small class="text-muted">Learn More</small></p>
+    </div>
+  </div>
+</div>
+ 
+ 
+<footer class="page-footer">
+            <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright:
+            <a href="http://dalvindigital.com" target="_blank">Powered By Dalvin Digital Design</a>
+        </div>
+</footer>
+ <!--
     <div class="text-center">
       <img src="images/spectacularaquarium_logo.jpg" alt="Spectacular Aquarium logo" width="556" height="230">
-      <h1 class="text-center" >Specializing in Design & Maintenance</h1>
-      <img class="img-thumbnail" src="images/gallery_fish1.jpg">
-      <ul class="list-group" style="margin: 100px">
-        <li class="list-group-item">Set-up and Installation</li>
-        <li class="list-group-item">Salt Water, Fresh Water Coral Reef Tanks</li>
-        <li class="list-group-item">Supply of a Vast Selection of </li>
-        <li class="list-group-item">Commercial and Residential Accounts</li>
-        <li class="list-group-item">Aquarium Themed Parties</li>
-      </ul>
-    </div>
-        
+      
+        <div id="carouselExampleIndicators text-auto" class="carousel slide text-center"  data-ride="carousel" data-interval="2000">
 
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <div class="text-center">
-      <img class="img-thumbnail" src="images/footer_clownarrow.gif">
+  <div class="carousel-inner" id="gallery" style="margin:0 auto; padding: 50px"></div>
+   <h1>Services</h1>
+  <div id="service-group" style="margin:0 auto; padding: 50px">
+        <h3 id="serv0">Set-up and Installation</h3>
+        <h3 id="serv1">Salt Water, Fresh Water Coral Reef Tanks</h3>
+        <h3 id="serv2">Supply of a Vast Selection of</h3>
+        <h3 id="serv3">Commercial and Residential Accounts</h3>
+        <h3 id="serv4">Aquarium Themed Parties</h3>
     </div>
+    -->
+  
+    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
   </div>
   </body>
 </html>
