@@ -41,7 +41,11 @@
          /* ---- reset ---- */ canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position: relative; width: 100%; height: 100%; background-color: black; background-image: url("http://aqdesigns.com/images/spectacularaquarium_logo.jpg"); background-repeat: no-repeat; background-size: 50%; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
       </style>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <a class="navbar-brand" href="#"><img src="/images/logo/aqdesign_long.png" class="img-responsive" style="width:150px; height: 50px;"/></a>
+         <a class="navbar-brand" href="#">
+            <img src="/images/logo/aqdesign_long.png" class="img-responsive" style="width:150px; height: 50px;"/>
+            <hr>
+            <small class="text-muted">Aquarium Designs</small>
+         </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
          </button>
@@ -80,7 +84,6 @@
             </div>
          </div>
       </div>
-      
       <div class="container-fluid">
          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" date-interval="500">
             <div class="carousel-inner" style="width:100%">
@@ -127,43 +130,122 @@
                </div>
             </div>
          </div>
-       
-        <div class="container-fluid" style="padding:50px;">
-          <h1 style="color:white; margin:15px;" class="text-center">Gallery</h1>
-               <div class="row row text-center text-lg-left">
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img src="images/gallery_coral1.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 1">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img src="images/gallery_coral2.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 2">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img  src="images/gallery_coral3.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 3">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img  src="images/gallery_coral4.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 4">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img src="images/gallery_fish1.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 1">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img src="images/gallery_fish2.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 2">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img  src="images/gallery_fish3.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 3">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <img  src="images/gallery_fish5.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 4">
+         <div class="container-fluid" style="padding:50px;">
+            <h1 style="color:white; margin:15px;" class="text-center">Gallery</h1>
+            <div class="row row text-center text-lg-left">
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img src="images/gallery_coral1.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 1">
+               </div>
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img src="images/gallery_coral2.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 2">
+               </div>
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img  src="images/gallery_coral3.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 3">
+               </div>
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img  src="images/gallery_coral4.jpg" class="img-thumbnail img-fluid gallery_image" alt="Coral 4">
+               </div>
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img src="images/gallery_fish1.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 1">
+               </div>
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img src="images/gallery_fish2.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 2">
+               </div>
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img  src="images/gallery_fish3.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 3">
+               </div>
+               <div class="col-lg-3 col-md-4 col-xs-6">
+                  <img  src="images/gallery_fish5.jpg" class="img-thumbnail img-fluid gallery_image" alt="Fish 4">
+               </div>
             </div>
          </div>
-        </div>
-         <footer class="page-footer">
-            <div class="footer-copyright py-3 text-center">
-               © 2018 Copyright:
-               <a href="http://dalvindigital.com" target="_blank">Powered By Dalvin Digital Design</a>
-            </div>
-         </footer>
       </div>
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+         <!--Section heading-->
+         <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+         <!--Section description-->
+         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+            a matter of hours to help you.
+         </p>
+         <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+               <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                  <!--Grid row-->
+                  <div class="row">
+                     <!--Grid column-->
+                     <div class="col-md-6">
+                        <div class="md-form mb-0">
+                           <input type="text" id="name" name="name" class="form-control">
+                           <label for="name" class="">Your name</label>
+                        </div>
+                     </div>
+                     <!--Grid column-->
+                     <!--Grid column-->
+                     <div class="col-md-6">
+                        <div class="md-form mb-0">
+                           <input type="text" id="email" name="email" class="form-control">
+                           <label for="email" class="">Your email</label>
+                        </div>
+                     </div>
+                     <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                  <!--Grid row-->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="md-form mb-0">
+                           <input type="text" id="subject" name="subject" class="form-control">
+                           <label for="subject" class="">Subject</label>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Grid row-->
+                  <!--Grid row-->
+                  <div class="row">
+                     <!--Grid column-->
+                     <div class="col-md-12">
+                        <div class="md-form">
+                           <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                           <label for="message">Your message</label>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Grid row-->
+               </form>
+               <div class="text-center text-md-left">
+                  <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+               </div>
+               <div class="status"></div>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+               <ul class="list-unstyled mb-0">
+                  <li>
+                     <i class="fas fa-map-marker-alt fa-2x"></i>
+                     <p>San Francisco, CA 94126, USA</p>
+                  </li>
+                  <li>
+                     <i class="fas fa-phone mt-4 fa-2x"></i>
+                     <p>+ 01 234 567 89</p>
+                  </li>
+                  <li>
+                     <i class="fas fa-envelope mt-4 fa-2x"></i>
+                     <p>contact@mdbootstrap.com</p>
+                  </li>
+               </ul>
+            </div>
+            <!--Grid column-->
+         </div>
+      </section>
+      <footer class="page-footer">
+         <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright:
+            <a href="http://dalvindigital.com" target="_blank">Powered By Dalvin Digital Design</a>
+         </div>
+      </footer>
       <!--
          <div class="text-center">
            <img src="images/spectacularaquarium_logo.jpg" alt="Spectacular Aquarium logo" width="556" height="230">
@@ -180,7 +262,7 @@
              <h3 id="serv4">Aquarium Themed Parties</h3>
          </div>
          -->
-         <div class="modal fade" id="galleryExample" tabindex="-1" role="dialog" aria-labelledby="galleryExample" aria-hidden="true">
+      <div class="modal fade" id="galleryExample" tabindex="-1" role="dialog" aria-labelledby="galleryExample" aria-hidden="true">
          <div class="modal-dialog" role="document">
             <div class="modal-content">
                <div class="modal-header">
@@ -203,13 +285,19 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-         <script>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/css/mdb.min.css" rel="stylesheet">
+      <script>
          $(".gallery_image").click(function(){
           var src = $(this).attr('src');
           var previewImage = document.getElementById("preview")
           preview.src = src;
           $('#galleryExample').modal();
-        })
+         })
       </script>
       </div>
    </body>
